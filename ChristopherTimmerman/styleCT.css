@@ -3,6 +3,20 @@ background-color: blueviolet;
 justify-content: center;
 align-items: center;
 
+
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(231, 241, 80);
+  color: rgb(14, 10, 224);
+  font-size: 50px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
 }
 
 
@@ -17,6 +31,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   justify-items: center;
   background-color: lightcoral;
   padding: 20px;
@@ -26,7 +41,7 @@ section {
 }
 
 article {
-  display: flexbox;
+  display: flebox;
   flex-direction: column;
   align-items: center;
   justify-items: center;
@@ -50,10 +65,10 @@ border-radius: 30px;
 #image2 {
 display: flex;
 justify-content: center;
-height: 150px;
-width: 150px;
+height: 300px;
+width: 300px;
 border-style: solid;
-border-width: 75px;
+border-width: 55px;
 border-radius: 30px;
 
 }
